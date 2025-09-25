@@ -9,7 +9,11 @@ This project addresses three key questions:How has EV charger availability chang
 
 **Approach and Methodology**
 
-We use 4 datasets:1.EV charger dataset (2017~2024); 2.Income census data (2017~2024); 3.Population census data (2017~2024); 4.Census Tract datasets of LA county
+We use 4 datasets:
+1.EV charger dataset (2017~2024);  
+2.Income census data (2017~2024); 
+3.Population census data (2017~2024); 
+4.Census Tract datasets of LA county
 
 First, we clean Population and Income Census Data (2017~2024) in LA county: (1)Automatically select columns in need; (2)Clean columns' names; (3)Merge population and income datasets in each year together as a demographic datasets. Second, we clean EV charger datasets in LA county:(1)Narrow down from CA to LA county; (2)Select columns in need; (3)Clean values' format; (4)Merge each year dataset together. Third, we merge census tract dataset with EV Charger datasets as one geojson file. Fourth, we merge all datasets together.
 
